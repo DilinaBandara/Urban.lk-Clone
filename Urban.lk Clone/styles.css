@@ -1,0 +1,214 @@
+body{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.header{
+    background-color: rgb(52, 68, 88);
+    padding-top:20px;
+    padding-bottom: 15px;
+}
+
+.headergrid{
+    background-color: rgb(52, 68, 88,);
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+}
+
+/* Start of search bar styling */
+.searchbar{
+    width: 300px;
+    height:30px;
+    margin: auto;
+}
+
+.bar{
+    margin-right: 10px;
+}
+
+.searchbar input{
+    width: 80%;
+    margin-right: 0;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    float: left;
+    height: 100%;
+    font-family: "Poppins", arial, tahoma;
+    font-weight: normal;
+}
+
+.searchbar button{
+    width: 10%;
+    background-color: #f2bd6f;
+    border-radius: 0 3px 3px 0;
+    margin-left: 0;
+    font-size: 20px;
+    border: none;
+    margin: 0;
+    float: left;
+    height: 100%;
+    color: gray;
+}
+
+/* End of sear bar styling */
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+}
+
+.grid-item{
+    font-family: Poppins, arial, tahoma;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 24.5px;
+    color: white;
+    text-align: right;
+}
+
+div.navbar{
+    text-align: left;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+#banner-section{
+    margin-bottom: 0;
+}
+.img-mac{
+    max-width: 100%;
+}
+
+.fontawesome-head{
+    color: white;
+    font-size: 23px;
+    margin:auto;
+}
+
+.fontawesome-head i{
+    margin: 8px;
+}
+
+.banner-section{
+    margin-bottom: 0;
+}
+
+#content{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:white;
+}
+
+/* Start to make grid-3 */
+.grid-row1 {
+    display: grid;
+    grid-template-columns: 5% 20% 5% 20% 5% 20% 5% 20%;
+    background-color: white;
+    padding-top: 36px;
+    padding-bottom: 2px;
+}
+
+.heading{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.992px;
+    color: rgb(34, 34, 34);
+}
+
+.head-text{
+    font-family: Poppins, arial, tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.5px;
+    color: rgb(135, 135, 135);
+}
+
+.head-text, .heading{
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fontawesome-content{
+    color: rgb(158, 158, 158);
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.grid-row2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding-top: 36px;
+    padding-bottom: 2px;
+    grid-gap: 2%;
+}
+
+.img-link{
+    position: relative;
+}
+
+.img-link img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    -webkit-transition: all .3s ease-out 0s;
+}
+
+.img-link img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.img-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    box-shadow: 1px 1px 0 0 rgb(0 0 0 / 10%);
+    padding: 5px;
+    min-width: 150px;
+    border-color: #fff;
+    text-align: center;
+    font-family: "Poppins";
+    color: #222;
+    background-color: #fff;
+}
+  
+.grid-row2 .img-btn:hover {
+    color: fff;
+    background-color: #56cfe1;
+    border-color: #56cfe1;
+}
